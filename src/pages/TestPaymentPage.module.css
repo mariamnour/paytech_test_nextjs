@@ -1,0 +1,100 @@
+
+  /* TestPaymentPage.module.css */
+
+.container {
+    max-width: 400px; /* Réduction de la largeur de la carte */
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    font-size: 1.6em; /* Réduction de la taille de la police */
+    color: #333;
+    margin-bottom: 10px; /* Réduction de l'espacement */
+    font-weight: 600;
+  }
+  
+  .productImage {
+    width: 100%;
+    max-width: 300px; /* Réduction de la taille de l'image */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Réduction de l'espacement */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .description {
+    font-size: 0.9em; /* Réduction de la taille de la description */
+    color: #555;
+    margin: 10px 0 15px;
+    line-height: 1.4; /* Réduction de l'interligne */
+  }
+  
+  .priceQuantityContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0; /* Réduction de l'espacement */
+  }
+  
+  .price {
+    font-size: 1.2em; /* Réduction de la taille de la police du prix */
+    color: #4a4a4a;
+    font-weight: 500;
+  }
+  
+  .quantityControls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantityButton {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 4px 8px; /* Réduction de la taille des boutons de quantité */
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #555;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantityButton:hover {
+    background-color: #cccccc;
+  }
+  
+  .quantity {
+    font-size: 1em; /* Réduction de la taille de la quantité */
+    color: #333;
+    width: 30px;
+    text-align: center;
+  }
+  
+  .payButton {
+    width: 100%;
+    padding: 10px; /* Réduction du padding du bouton */
+    font-size: 1em;
+    background: linear-gradient(135deg, #f39e01, #f3a806);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: box-shadow 0.3s ease, background 0.3s ease;
+    margin-top: 15px; /* Réduction de l'espacement au-dessus du bouton */
+  }
+  
+  .payButton:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .payButton:not(:disabled):hover {
+    box-shadow: 0 3px 8px rgba(0, 112, 243, 0.3);
+  }
